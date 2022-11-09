@@ -65,13 +65,13 @@ public abstract class EncryptView implements Observer{
         tabbedPane = new JTabbedPane();
 
         caesarPanel = new JPanel();
-        caesarPanel.setLayout(new GridLayout(4, 2));
+        caesarPanel.setLayout(new GridLayout(3, 2));
 
         caesar1Panel = new JPanel();
-        caesar1Panel.setLayout(new GridLayout(4, 2));
+        caesar1Panel.setLayout(new GridLayout(3, 2));
 
         vigenerePanel = new JPanel();
-        vigenerePanel.setLayout(new GridLayout(4, 2));
+        vigenerePanel.setLayout(new GridLayout(3, 2));
 
         resultPanel = new JPanel();
         resultPanel.setLayout(new GridLayout(2, 2));
@@ -199,6 +199,9 @@ public abstract class EncryptView implements Observer{
         panel.add(resultPanel, BorderLayout.SOUTH);
         // Add panel to frame
         frame.add(panel);
+
+        // make frame resizable
+        frame.setResizable(true);
         // Set default values
         shift = 0;
         key = "";

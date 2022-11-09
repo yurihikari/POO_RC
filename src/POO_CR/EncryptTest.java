@@ -39,7 +39,7 @@ public class EncryptTest {
 
         // Tester la classe Caesar2 avec le message " les sanglots longs." et un décalage de 3
         Caesar2 caesar3 = new Caesar2(3);
-        caesar3.v_plain = "les sanglots longs.";
+        caesar3.v_plain = "Les sanglots longs.";
         // We encode plain
         caesar3.encode();
         // We show cipher value
