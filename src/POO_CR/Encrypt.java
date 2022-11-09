@@ -30,4 +30,19 @@ public abstract class Encrypt {
 
     public abstract void decode();
 
+    public String getV_plain() {
+        return v_plain;
+    }
+
+    public void setV_plain(String v_plain) {
+        this.v_plain = v_plain;
+    }
+
+    public String getV_cipher() {
+        return v_cipher;
+    }
+
+    public void setV_cipher(String v_cipher) {
+        this.v_cipher = v_cipher;
+    }
 }

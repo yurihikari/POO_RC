@@ -11,7 +11,7 @@ public class Vigenere extends Encrypt{
 
 
     //Initialisation du tableau de clé
-    public int[] initTab(int size) {
+    public static int[] initTab(int size) {
         int[] tab = new int[size];
         for (int i = 0; i < tab.length; i++) {
             tab[i] = (int) (Math.random() * 26);
@@ -19,7 +19,7 @@ public class Vigenere extends Encrypt{
         return tab;
     }
 
-    public int[] initTab(String key) {
+    public static int[] initTab(String key) {
         int[] tab = new int[key.length()];
         for (int i = 0; i < tab.length; i++) {
             //Dans tab[i] on met la valeur en int de la place de la lettre de key[i] dans l'alphabet
