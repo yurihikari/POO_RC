@@ -15,6 +15,7 @@ public class Caesar2 extends Encrypt{
     public Caesar2() {
         this.shift = 3;
     }
+
     @Override
     public void encode() {
         //Prendre v_encrypt.plain() et le décaler de 3 selon la table ASCII

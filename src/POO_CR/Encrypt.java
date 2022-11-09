@@ -22,6 +22,15 @@ public abstract class Encrypt {
         return v_cipher;
     }
 
+    // setter
+    public void setPlain(String plain) {
+        this.v_plain = plain;
+    }
+
+    public void setCipher(String cipher) {
+        this.v_cipher = cipher;
+    }
+
     // Une méthode « public » encode qui réalisera l'encodage du message non chiffré et une
     //méthode « public » decode (réciproque de la précédente) qui réalisera le décodage du
     //message chiffré. L'algorithme de cryptographie utilisé permettra de spécialiser la
