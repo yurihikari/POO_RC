@@ -49,7 +49,21 @@ public class EncryptTest {
         // We show plain value
         System.out.println(caesar3.v_plain);
 
-        // Tester la classe Caesar2 avec une exception
+        System.out.println("Test de la classe Vigenere");
+
+        Vigenere vigenere = new Vigenere("bbb");
+        vigenere.v_plain = "les sanglots longs.";
+
+        // We encode plain
+        vigenere.encode();
+        // We show cipher value
+        System.out.println(vigenere.v_cipher);
+        // We decode cipher
+        vigenere.decode();
+        // We show plain value
+        System.out.println(vigenere.v_plain);
+
+        /*// Tester la classe Caesar2 avec une exception
         Caesar2 caesar4 = new Caesar2(-3);
         caesar4.v_plain = "les sanglots longs.";
         // We encode plain
@@ -71,7 +85,7 @@ public class EncryptTest {
         // We decode cipher
         caesar2.decode();
         // We show plain value
-        System.out.println(caesar2.v_plain);
+        System.out.println(caesar2.v_plain);*/
 
 
 
