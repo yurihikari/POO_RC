@@ -1,0 +1,12 @@
+Dépôt de 10000.0 sur le compte 1;
+Dépôt de 10000.0 sur le compte 1;
+Retrait de 200.0 sur le compte 1;
+Dépôt de 10000.0 sur le compte 1;
+Retrait de 200.0 sur le compte 1;
+Retrait impossible, solde insuffisant;
+Dépôt de 10000.0 sur le compte 1;
+Dépôt de 10000.0 sur le compte 1;
+Retrait de 200.0 sur le compte 1;
+Dépôt de 10000.0 sur le compte 1;
+Retrait de 200.0 sur le compte 1;
+Retrait impossible, solde insuffisant;
